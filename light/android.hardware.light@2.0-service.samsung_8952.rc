@@ -18,7 +18,7 @@ on init
     chown system system /sys/class/leds/green/blink
     chown system system /sys/class/leds/blue/blink
 
-service light-hal-2-0 /vendor/bin/hw/android.hardware.light@2.0-service.xiaomi_8952
+service light-hal-2-0 /vendor/bin/hw/android.hardware.light@2.0-service.samsung_8952
     class hal
     user system
     group system

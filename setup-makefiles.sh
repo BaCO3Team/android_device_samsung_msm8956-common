@@ -19,7 +19,7 @@ set -e
 
 # Required!
 DEVICE=$1
-VENDOR=xiaomi
+VENDOR=samsung
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

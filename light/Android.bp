@@ -14,9 +14,9 @@
 // limitations under the License.
 
 cc_binary {
-    name: "android.hardware.light@2.0-service.xiaomi_8952",
+    name: "android.hardware.light@2.0-service.samsung_8952",
     relative_install_path: "hw",
-    init_rc: ["android.hardware.light@2.0-service.xiaomi_8952.rc"],
+    init_rc: ["android.hardware.light@2.0-service.samsung_8952.rc"],
     srcs: ["service.cpp", "Light.cpp"],
     shared_libs: [
         "libbase",

@@ -15,13 +15,13 @@
 # limitations under the License.
 #
 # Run in terminal:
-# cd [ANDROID_ROOT_PATH]/device/xiaomi/msm8956-common && ./extract-files.sh  [DEVICE] [PATH_TO_EXPANDED_ROM]
+# cd [ANDROID_ROOT_PATH]/device/samsung/msm8956-common && ./extract-files.sh  [DEVICE] [PATH_TO_EXPANDED_ROM]
 # 
 
 set -e
 
 DEVICE=$1
-VENDOR=xiaomi
+VENDOR=samsung
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
